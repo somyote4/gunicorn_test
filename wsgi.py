@@ -1,14 +1,11 @@
-from myproject import application
+#from application import application
 
-if __name__ == "__main__":
-    application.run()
+#if __name__ == "__main__":
+#    application.run()
 
-#from flask import Flask
-#application = Flask(__name__)
+from application import create_app
 
-#@application.route("/")
-#def hello():
-#   return "<h1 style='color:blue'>Hello There!</h1>"
+application = create_app()
 
 #if __name__ == "__main__":
 #    application.run()
